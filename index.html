@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>存股目標張數清單</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+    
+<h2>存股目標張數</h2>
+<br>請輸入股票代碼、每次配息目標股息，按下送出後</br>，xyz精靈會告訴你需要存多少張呦：）</p>
+<button>SUBMIT</button>
+<hr>
+<table>
+    <tr>
+      <th>項目</th>
+      <th>明細</th>
+    </tr>
+    <tr>
+      <td>股票代碼</td>
+      <td>
+        <input type="text" id="stockId" pattern="[0-9]{1,5}" onblur="handleIdOnblur()">
+      </td>
+    </tr>
+      <tr>
+      <td>股票股價</td>
+      <td id="stockPrice"></td>
+    </tr>
+      <tr>
+      <td>股票名稱</td>
+      <td id="stockName"></td>
+    </tr>
+      <tr>
+      <td>配息頻率</td>
+      <td id="interestFrequency"></td>
+    </tr>
+      <tr>
+      <td>設定『』目標股息</td>
+      <td>
+        <input type="number" id="targetDividend" onblur="handleTargetDividendOnblur()">
+      </td>
+    </tr>
+      <tr>
+      <td>換算週期領息金額</td>
+      <td id="convertedInterest"></td>
+    </tr>
+      <tr>
+      <td>最新配息</td>
+      <td id="latestDividend"></td>
+    </tr>
+      <tr>
+      <td>需要張數</td>
+      <td id="shareRequired"></td>
+    </tr>
+      <tr>
+      <td>自訂配息</td>
+      <td>
+        <input type="text" id="customDividend" onblur="handleCustomDividendOnblur()"></td>
+    </tr>
+    <tr>
+      <td>需要張數</td>
+      <td id="customShareRequired"></td>
+    </tr>
+  </table>
+
+</body>
+
+</html>

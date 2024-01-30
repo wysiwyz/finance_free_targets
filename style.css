@@ -1,0 +1,26 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #777777;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(2), tr:nth-child(3), tr:nth-child(4) {
+    background-color: #dddddd;
+  }
+
+  tr:nth-child(7) {
+    background-color: #dddddd;
+  }
+
+  tr:nth-child(10), tr:nth-child(11) {
+    background-color: #dddddd;
+  }
