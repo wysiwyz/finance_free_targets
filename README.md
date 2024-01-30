@@ -3,7 +3,7 @@
 ### 短期目標
 - 使用HTML/Javascript/CSS 完成存股目標試算
 - 簡言之，就是把excel可以做的事搬到web ui
-  ![[ETF_target](https://i.imgur.com/0nnu6Cr.png)]
+  ![ETF_target](https://i.imgur.com/0nnu6Cr.png)
 
 ### 中期目標 (Feb/1 ~ Apr/30)
 - 改用前端三大框架完成UI
